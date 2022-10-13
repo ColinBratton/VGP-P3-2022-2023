@@ -35,8 +35,7 @@ public GameObject projectilePrefab;
     
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            //Launch a projectile from the player
-            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+            Instantiate(projectilePrefab, transform.position, projectilePrefab. transform.rotation);
         }
     }
 
