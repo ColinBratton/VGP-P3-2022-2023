@@ -164,6 +164,7 @@ GameObject:
   - component: {fileID: 4728188641448213711}
   - component: {fileID: 4728188641440557575}
   - component: {fileID: 4728188641971391714}
+  - component: {fileID: 346630872419002358}
   m_Layer: 0
   m_Name: Ollie
   m_TagString: Untagged
@@ -254,6 +255,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
+--- !u!114 &346630872419002358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4728188641447880639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 422f87807b1e16640892f8e5cd0384e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4728188641447880715
 GameObject:
   m_ObjectHideFlags: 0
