@@ -167,6 +167,7 @@ GameObject:
   - component: {fileID: 346630872419002358}
   - component: {fileID: 7972080720584408195}
   - component: {fileID: 836212551}
+  - component: {fileID: 6062366600462570661}
   m_Layer: 0
   m_Name: Ollie
   m_TagString: Untagged
@@ -277,7 +278,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4728188641447880639}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 0.7244716, z: 0.3762578}
@@ -289,9 +290,21 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4728188641447880639}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 422f87807b1e16640892f8e5cd0384e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6062366600462570661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4728188641447880639}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bb78fb112ab5184b9b75f2ea35afb82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4728188641447880715

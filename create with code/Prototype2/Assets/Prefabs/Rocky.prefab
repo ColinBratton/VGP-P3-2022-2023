@@ -5825,6 +5825,7 @@ GameObject:
   - component: {fileID: -8583374501953141648}
   - component: {fileID: 2925334984872553983}
   - component: {fileID: 31473686}
+  - component: {fileID: 4094539265603666138}
   m_Layer: 0
   m_Name: Rocky
   m_TagString: Untagged
@@ -5948,9 +5949,21 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1736207297248752673}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 422f87807b1e16640892f8e5cd0384e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4094539265603666138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736207297248752673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bb78fb112ab5184b9b75f2ea35afb82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1736207297248753463
@@ -6143,7 +6156,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4728188641448213711, guid: d4f0a3cf61b34b94086ce507aba1de3d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.5714283
+      value: 2.5714273
       objectReference: {fileID: 0}
     - target: {fileID: 4728188641448213711, guid: d4f0a3cf61b34b94086ce507aba1de3d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6155,11 +6168,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4728188641448213711, guid: d4f0a3cf61b34b94086ce507aba1de3d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7987297
       objectReference: {fileID: 0}
     - target: {fileID: 4728188641448213711, guid: d4f0a3cf61b34b94086ce507aba1de3d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: -0.60169
       objectReference: {fileID: 0}
     - target: {fileID: 4728188641448213711, guid: d4f0a3cf61b34b94086ce507aba1de3d, type: 3}
       propertyPath: m_LocalRotation.y
@@ -6171,11 +6184,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4728188641448213711, guid: d4f0a3cf61b34b94086ce507aba1de3d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -73.982
       objectReference: {fileID: 0}
     - target: {fileID: 4728188641448213711, guid: d4f0a3cf61b34b94086ce507aba1de3d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4728188641448213711, guid: d4f0a3cf61b34b94086ce507aba1de3d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z

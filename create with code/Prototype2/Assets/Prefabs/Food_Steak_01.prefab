@@ -11,10 +11,13 @@ GameObject:
   - component: {fileID: 6539981431820135621}
   - component: {fileID: 6539981431823626711}
   - component: {fileID: 6539981431822549829}
-  - component: {fileID: 6539981431272054729}
   - component: {fileID: 6874230723871957004}
   - component: {fileID: 8330498841286027335}
   - component: {fileID: 4832406776734980972}
+  - component: {fileID: -3560920520372101053}
+  - component: {fileID: 956865911}
+  - component: {fileID: 956865915}
+  - component: {fileID: 3630190641489187227}
   m_Layer: 0
   m_Name: Food_Steak_01
   m_TagString: Untagged
@@ -85,19 +88,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &6539981431272054729
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6539981431820331273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c40ceda49958de43801b6d455ea336d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 40
 --- !u!114 &6874230723871957004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,3 +129,52 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-3560920520372101053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6539981431820331273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bb78fb112ab5184b9b75f2ea35afb82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &956865911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6539981431820331273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 422f87807b1e16640892f8e5cd0384e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &956865915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6539981431820331273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c40ceda49958de43801b6d455ea336d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 40
+--- !u!114 &3630190641489187227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6539981431820331273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bb78fb112ab5184b9b75f2ea35afb82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
