@@ -165,4 +165,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 745c25f6adc3b4804961d8389a1a74fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ballPrefabs: []
+  ballPrefabs:
+  - {fileID: 0}
+  ballIndex: 1
