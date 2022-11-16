@@ -10,6 +10,8 @@ public class DestroyOutOfBoundsX : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       
+       
         // Destroy dogs if x position less than left limit
         if (transform.position.x < leftLimit) 
         {

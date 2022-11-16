@@ -9,6 +9,7 @@ public class SpawnManagerX : MonoBehaviour
     private float spawnLimitXLeft = -20;
     private float spawnLimitXRight = 0;
     private float spawnPosY = 30;
+    private float startDelay = 3;
     //public int Index = (0, 2);
 
     // Start is called before the first frame update
