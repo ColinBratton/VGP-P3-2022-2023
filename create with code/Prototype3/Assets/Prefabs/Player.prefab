@@ -2051,3 +2051,4 @@ MonoBehaviour:
   JumpForce: 10
   gravityModifier: 1.25
   isOnGround: 1
+  gameOver: 0
