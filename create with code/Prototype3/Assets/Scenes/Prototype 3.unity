@@ -645,12 +645,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2171499545256262410, guid: d0994536495e5ed4e9303569a33580f2, type: 3}
+      propertyPath: m_Mass
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2171499545256262410, guid: d0994536495e5ed4e9303569a33580f2, type: 3}
       propertyPath: m_Constraints
       value: 122
       objectReference: {fileID: 0}
     - target: {fileID: 2171499545256262410, guid: d0994536495e5ed4e9303569a33580f2, type: 3}
       propertyPath: m_IsKinematic
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2171499545256262413, guid: d0994536495e5ed4e9303569a33580f2, type: 3}
+      propertyPath: JumpForce
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 2171499545256262413, guid: d0994536495e5ed4e9303569a33580f2, type: 3}
+      propertyPath: gravityModifier
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4906344413565221239, guid: d0994536495e5ed4e9303569a33580f2, type: 3}
       propertyPath: m_Name
