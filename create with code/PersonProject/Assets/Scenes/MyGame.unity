@@ -247,6 +247,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dbec4385653dc74ea4b95313e675407, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemies:
+  - {fileID: 1079645590433141353, guid: 09cb80ff993052641a7f81856ed926cc, type: 3}
+  - {fileID: 7442197341284971957, guid: f6e51b1af142e7f409879b5c0e538032, type: 3}
+  - {fileID: 2778986451076290591, guid: 369ee0c379b0df64d96ffd2ccfb4c88f, type: 3}
+  - {fileID: 1970415115902181796, guid: f5279e1c7bc0e814482a7e58ef2d1ce4, type: 3}
+  powerup: {fileID: 2745347719995157922, guid: 63239cd0b4745d645921c40c7949a422, type: 3}
 --- !u!4 &257133290
 Transform:
   m_ObjectHideFlags: 0
