@@ -451,6 +451,7 @@ MonoBehaviour:
   - {fileID: 4859516071311200730, guid: 359c5109974fb8344b1925bbf811e015, type: 3}
   - {fileID: 1439708324778829810, guid: d9e21bf305b2f0041b9282d2c90e4ac5, type: 3}
   - {fileID: 2311643219037166278, guid: 4854fb890937536448076d5d2f5723bd, type: 3}
+  scoreText: {fileID: 1201880214}
 --- !u!4 &1120490165
 Transform:
   m_ObjectHideFlags: 0
@@ -695,7 +696,7 @@ RectTransform:
   m_Children:
   - {fileID: 1201880213}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -865,7 +866,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1829648827
 GameObject:
