@@ -39,4 +39,9 @@ public class GameManager : MonoBehaviour
         score += scoreToAdd;
           scoreText.text = "Score: " + score;
     }
+
+    public void GameOver()
+    {
+         gameOverText.gameObject.SetActive(true);
+    }
 }
