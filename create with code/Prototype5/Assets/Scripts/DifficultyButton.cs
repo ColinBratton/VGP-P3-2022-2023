@@ -25,7 +25,7 @@ public class DifficultyButton : MonoBehaviour
     }
 
     void SetDifficulty()
-    {
+    {                                                         // This make the game easier or harder depending on which button gets clicked
         Debug.Log(button.gameObject.name + " was clicked");
         gameManager.StartGame(difficulty);
     }

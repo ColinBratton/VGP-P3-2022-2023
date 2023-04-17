@@ -54,7 +54,7 @@ public class Target : MonoBehaviour
      public void DestroyTarget()
       {   
         if(gameManager.isGameActive)
-        {
+        {                                                           //This code makes the ? box have a random value from -5 to +10
             if (gameObject.CompareTag("?"))
             {
             Destroy(gameObject);

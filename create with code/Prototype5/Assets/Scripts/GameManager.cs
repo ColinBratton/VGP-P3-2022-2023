@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void UpdateLives(int livesToChange)
-    {
+    {                                                       // This section makes the game end when the lives go down to 0
         lives += livesToChange;
         livesText.text = "Lives:" + lives;
         if (lives <= 0)
