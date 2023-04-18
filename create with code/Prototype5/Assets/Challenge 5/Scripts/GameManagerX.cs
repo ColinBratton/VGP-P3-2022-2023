@@ -12,7 +12,7 @@ public class GameManagerX : MonoBehaviour
     public TextMeshProUGUI gameOverText;
     public GameObject titleScreen;
     public Button restartButton; 
-    private float timeSec = 60;
+    private float timeSec = 30;
 
     public List<GameObject> targetPrefabs;
 
